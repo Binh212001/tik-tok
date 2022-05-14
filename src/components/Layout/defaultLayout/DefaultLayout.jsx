@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../Header/Header";
+import Header from "../../Header/component/Header";
 import Sidebar from "../../Sidebar/Sidebar";
 
 function DefaultLayout({ children }) {

@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.popper {
+  margin-top: 6px;
+  font-size: 1.4rem;
+  line-height: 20px;
+  min-width: 223px;
+  cursor: pointer;
+  box-shadow: 3px 4px 7px 5px rgb(0 0 0 / 12%);
+  padding: 10px 0;
+  position: relative;
+  z-index: 100;
+  font-size: 1.6rem;
+  background-color: var(--white);
+}
+.header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.back {
+  position: absolute;
+  left: 10px;
+}

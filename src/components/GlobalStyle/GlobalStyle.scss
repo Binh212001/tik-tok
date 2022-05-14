@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
 
 :root {
+  --header-height: 60px;
+  --boder-search: 92px;
+  --white: #fff;
+  --black: #333;
+  --primary: rgba(254, 44, 85, 1);
 }
 
 * {
@@ -18,4 +23,19 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+}
+
+button {
+  border-radius: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: none;
+  background-color: var(--white);
+}
+
+a,
+input {
+  outline: none;
+  border: none;
+  text-decoration: none;
 }

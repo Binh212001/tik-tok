@@ -1,0 +1,22 @@
+.wrapper {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 22px;
+  min-width: 100px;
+  cursor: pointer;
+  padding: 6px 8px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+  &:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
+}
